@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; }
+body { font-family: system-ui, sans-serif; max-width: 44rem; margin: 2.5rem auto; padding: 0 1.25rem; line-height: 1.65; }
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.25rem; margin-top: 2rem; }
+code { font-family: ui-monospace, monospace; }
+nav { margin-bottom: 1.5rem; }
+nav a { margin-right: 1rem; }
