@@ -16,8 +16,9 @@
 
 <h2>In short</h2>
 <ul>
-  <li>The game has no account and no sign-in, and it has no analytics or crash-reporting software of its own.</li>
+  <li>The game has no account and no sign-in, and it has no crash-reporting software.</li>
   <li>Your progress is stored on your own phone.</li>
+  <li>Anonymous usage data, which Google Analytics for Firebase collects, is off until you allow it. The game asks once, after your first race, and you can switch it off at any time in Settings.</li>
   <li>The only ads are optional rewarded videos that you choose to watch. Google AdMob delivers them and may use the advertising ID of your phone. Where the law requires it, the game asks for your consent first, and you can change your choice later in Settings.</li>
   <li>When you buy something, Google Play takes the payment, and our service provider RevenueCat records the purchase so that the game can unlock what you bought.</li>
   <li>We never see your payment details.</li>
@@ -57,26 +58,42 @@
 <p>RevenueCat also receives updates about your purchases from Google Play, such as renewals, cancellations and refunds.</p>
 <p>We use this data to unlock and restore what you bought, to manage subscriptions, to see how the game sells, and to answer you when you write to us about a purchase. RevenueCat stores customer data in data centers in the United States, so this data may leave your country. <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a> describes how it handles data it receives from games like this one.</p>
 
+<h2>Usage data (optional)</h2>
+<p>The game can report anonymous information about how it is played, so that we can see where races are too hard or too slow, how the game runs on different phones and whether purchases and ads work. It uses Google Analytics for Firebase for this, a service of Google. <strong>It is off until you allow it.</strong> The game asks once, after your first race, and you can change your answer at any time in Settings under "Usage data". Until you say yes the software is switched off, and nothing is collected or sent. If you say no, or switch it off later, nothing more is collected or sent.</p>
+<p>When you allow it, the game reports:</p>
+<ul>
+  <li>which page of the game you open, for example the menu, the career page, the garage, the shop or the settings;</li>
+  <li>for each race: which event and mode, which car, the graphics quality, whether you started it again, how it ended (finished, restarted or left), your place and how many raced, how long it ran, and how smoothly it ran on your phone (the average frames per second, the resolution level of the picture and a verdict on whether the phone was fast enough);</li>
+  <li>when you could not start a race for lack of fuel, what you paid gold for and how much, and when the graphics quality was lowered, by you or by the game;</li>
+  <li>which offers the game made you: a lower graphics quality, the Starter Pack or a request to rate the game;</li>
+  <li>how a rewarded ad ended (rewarded, closed early or failed) and for which reward;</li>
+  <li>which product you started to buy and how the purchase ended (completed, restored, cancelled, failed or pending);</li>
+  <li>that the hints of your first race were shown, and whether the game is the store version or a test version.</li>
+</ul>
+<p>The Google software adds data of its own to these reports: random identifiers of this installation of the game (an app instance ID and a Firebase installation ID), which are not linked to your name, your account or your advertising ID; the model and make of your phone, the version of Android, your language and time zone, the version of the game and the store that installed it; when the game was first opened and when you open it and for how long; a marker for each ad that is shown, which the AdMob software adds; the purchases that Google Play processes, with the product, its name and its price; and a coarse location (country, region and city) that Google works out from the IP address of your phone. Google Analytics does not log or store the IP address itself. The game switches off the collection of the advertising ID by Google Analytics, and we have switched off Google signals and the sharing of this data with other Google products and services.</p>
+<p>Google processes this data for us as our service provider (<a href="https://firebase.google.com/support/privacy">how Firebase handles data</a>, <a href="https://policies.google.com/privacy">the Google Privacy Policy</a>). It is encrypted in transit and may be processed in data centers outside your country. Google Analytics keeps the reports of single players for two months and then deletes them in its next monthly clean-up; the totals that it has already added up from many players, which contain no single report, are kept longer. When you switch usage data off in Settings, the game stops the reports at once, deletes the reports that are still on your phone because they have not been sent, and gives the game a new app instance ID the next time you switch it on; the reports that were already sent stay in Google Analytics until their two months are over. They carry a random identifier that the game does not show and no name, so we cannot look up the reports of one person: that is why the choice is yours before anything is sent.</p>
+
 <h2>What the game does not do</h2>
 <ul>
   <li>It has no account, no sign-in, no chat, no social features and no content created by players.</li>
-  <li>It has no analytics software and no crash-reporting software of its own.</li>
+  <li>It has no crash-reporting software, and its usage data is the optional kind that is described above.</li>
   <li>It does not ask for your name, e-mail address, phone number, location, contacts, photos, microphone, camera or files.</li>
   <li>We do not sell your data.</li>
 </ul>
-<p>The game asks Android for these permissions: internet access and network state (to reach Google Play, RevenueCat and the ad servers), vibration (for the vibration you can switch off in Settings), notifications (for the reminders above, only after you allow them), Google Play Billing (to sell the items above), and the advertising ID (so that Google AdMob can deliver ads, see above). The ads software also asks for basic phone state, which it uses to learn the type of the network connection. The standard Android libraries behind the ads and purchase software ask to keep the phone awake while they finish a task in the background.</p>
+<p>The game asks Android for these permissions: internet access and network state (to reach Google Play, RevenueCat and the ad servers), vibration (for the vibration you can switch off in Settings), notifications (for the reminders above, only after you allow them), Google Play Billing (to sell the items above), and the advertising ID (so that Google AdMob can deliver ads, see above). The ads software also asks for basic phone state, which it uses to learn the type of the network connection. The standard Android libraries behind the ads and purchase software ask to keep the phone awake while they finish a task in the background. The Google software for the usage data above declares three more permissions: two for the Android interfaces that measure which ads led to an install, and one for the Google Play service that tells which store or link brought the game to your phone. The game does not use them for advertising, and with the settings of the game that software does not read the advertising ID.</p>
 
 <h2>How long data is kept</h2>
-<p>On your phone: until you uninstall the game or clear its data. At RevenueCat: until we delete the record, which we do when you ask; otherwise as RevenueCat's own retention policy provides. At Google: as the Google privacy policy and the Google Play and AdMob terms provide.</p>
+<p>On your phone: until you uninstall the game or clear its data. At RevenueCat: until we delete the record, which we do when you ask; otherwise as RevenueCat's own retention policy provides. At Google Analytics: two months for the reports of single players (and then until the next monthly clean-up), as described under "Usage data". At Google, for the ads software: as the Google privacy policy and the Google Play and AdMob terms provide.</p>
 
 <h2>Your choices</h2>
 <ul>
   <li><strong>Sound, music and vibration</strong> can be switched off in the Settings of the game.</li>
+  <li><strong>Usage data</strong> is off until you allow it, and you can switch it off again at any time in Settings under "Usage data". Switching it off stops the reports at once and deletes the ones that were not sent yet.</li>
   <li><strong>Reminders</strong> can be switched off in the Settings of the game, and the notifications of the game can be blocked in the notification settings of Android.</li>
   <li><strong>Ads.</strong> Watching an ad is always your choice and the game works without it. Use "Privacy options" in Settings, when it is shown, to change your consent, and reset or delete the advertising ID in the Android settings.</li>
   <li><strong>A VIP subscription</strong> is cancelled in Google Play under Payments &amp; subscriptions &gt; Subscriptions. Deleting your record does not cancel a subscription, so cancel first.</li>
   <li><strong>Deleting your purchase record</strong> (the steps are also on the page <a href="delete-data.html">Delete Your Data</a>): write to <a href="mailto:ufukkaanguven@gmail.com">ufukkaanguven@gmail.com</a> and send the Google Play order number of one of your purchases (it looks like <code>GPA.1234-5678-9012-34567</code> and is in your Google Play receipt e-mail and your order history). We find the record by that number, delete it at RevenueCat and confirm by e-mail. If you never bought anything, RevenueCat only has the anonymous ID and the technical information above, which we cannot link to you, so there is nothing we could look up; uninstalling the game removes the ID from your phone.</li>
-  <li><strong>Your rights.</strong> Depending on where you live you may have the right to ask for access to, correction of or deletion of personal data about you, to object to its processing and to complain to your data protection authority. Write to <a href="mailto:ufukkaanguven@gmail.com">ufukkaanguven@gmail.com</a> to use them. For the data that Google collects through the ads software, use the controls in your Google account and in the Android settings.</li>
+  <li><strong>Your rights.</strong> Depending on where you live you may have the right to ask for access to, correction of or deletion of personal data about you, to object to its processing and to complain to your data protection authority. Write to <a href="mailto:ufukkaanguven@gmail.com">ufukkaanguven@gmail.com</a> to use them. For the data that Google collects through the ads software, use the controls in your Google account and in the Android settings. The usage data carries no name and a random identifier that the game does not show, so we cannot find the reports of one person to give you, correct or delete them: switch usage data off, and Google Analytics deletes the reports that were already sent when their two months are over.</li>
 </ul>
 
 <h2>Children</h2>
